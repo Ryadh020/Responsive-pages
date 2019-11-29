@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>mobileFirst</title>
+     <style>        
+     *{
+          outline:red 1px solid;
+          box-sizing: border-box;
+      }      
+      nav{
+          background-color: white;
+          position: fixed;
+          top: 0;
+          left:0;
+          right: 0;
+          border-bottom: 1px black solid;
+      }
+      .button-nav{
+          float: right;
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          background-color: rgb(231, 228, 228);
+          max-width: 20 px;
+          height: 25px;
+          margin: 6px;
+      }
+      .button-nav:hover{
+          color: rgb(0, 0, 0);
+          background-color: white;
+          border-top: 1px black solid;
+      }
+      ul{
+          list-style: none;
+          
+      }
+      li{
+          padding: 2px;
+          margin-bottom: 4px;
+          color: black;
+          background-color: rgb(231, 228, 228);
+      }
+      li:hover{
+          color: rgb(0, 0, 0);
+          background-color: white;
+          border-bottom: 1px black solid;
+      }
+      main {
+        margin-top: 50px;
+      }
+      main::after{
+          content: "";
+          clear: both;
+          display: table;
+          
+          
+      }
+      [class*=col-]{
+          float: left;
+          padding: 3px;
+          width: 100%;
+      }
+
+      @media only screen and (min-width: 500px) {
+         /* For tabelette: */
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
+
+      @media only screen and (min-width: 768px) {
+         /* For Desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+     </style>
+ </head>
+ <body>
+            <nav>
+                <a href=""><img src="FB_IMG_15100983616260202.jpg" alt="logo" style="max-width:35px; margin:3px;"></a>
+                <a href="" class="button-nav">Parameters</a>
+                <a href="" class="button-nav">Log-out</a>
+            </nav>
+            <main>
+                <div class="col-2 menu">
+                   <ul>
+                       <li>menu</li>
+                       <li>contacts</li>
+                       <li>messages</li>
+                       <li>invitation</li>
+                       <li>notifications</li>
+                   </ul>
+                </div>
+                <div class="col-7 col-s-9 article">
+                   <h1>Riyadh Ferhane</h1>
+                   <img src="FB_IMG_15100983616260202.jpg" alt="Profile" style="max-width:50%; margin-left:25%;">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo quia ipsum fuga nobis ab illum, porro sit voluptas ratione. Fugit totam libero doloribus, alias sapiente autem dignissimos aliquam quaerat.</p>
+                </div>
+                <div class="col-3 col-s-3 aside">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam exercitationem minima accusantium fuga, saepe sequi. Nihil, eos possimus. Excepturi porro rem nisi molestias accusamus accusantium cum maxime voluptatem ex quae.</p>
+                   <h1>Email</h1>
+                   <p>ferhaneriyadh@gmail.com</p>
+                   <h1>Tel</h1>
+                   <p>0697984441</p>
+                </div>
+            </main>
+            <footer>
+                   <p>faceMe 2019 &copy;</p> 
+            </footer>
+ </body>
+ </html>
